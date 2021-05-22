@@ -124,6 +124,7 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
+    flavorDimensions "default"  // <-- !!! add this line !!!
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
